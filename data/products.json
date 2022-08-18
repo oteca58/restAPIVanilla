@@ -1,12 +1,1 @@
-[
-  {
-    "id": "1",
-    "name": "Airpods cool",
-    "price": 89.99
-  },
-  {
-    "id": "2",
-    "name": "Speakers fancy",
-    "price": 199.99
-  }
-]
+[{"id":"1","name":"Airpods cool","price":89.99},{"id":"2","name":"Speakers fancy","price":199.99},{"id":"0047d910-67fa-4ba3-9007-2e9ff0df724f","title":"Test the post","description":"This is created to test the post api","price":120},{"id":"915fca96-14d4-430a-b1e3-2c536bfebac5","title":"Test the post","description":"This is created to test the post api","price":120},{"id":"56286052-03ab-4317-ab4e-55640ffb02cd","title":"Test the post","description":"This is created to test the post api","price":120}]
