@@ -39,7 +39,7 @@ async function createProduct(req, res) {
       description: "This is created to test the post api",
       price: 120,
     };
-    const newProduct = Product.createProduct(product);
+    const newProduct = await Product.createProduct(product);
     res.writeHead(201, { "Content-Type": "application/json" });
     return res.end(JSON.stringify(newProduct));
   } catch (error) {
