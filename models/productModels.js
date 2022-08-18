@@ -6,6 +6,14 @@ function findAll() {
   });
 }
 
+function findById(Id) {
+  return new Promise((resolve, reject) => {
+    const product = products.find((p) => p.id === Id);
+    resolve(product);
+  });
+}
+
 module.exports = {
   findAll,
+  findById,
 };
